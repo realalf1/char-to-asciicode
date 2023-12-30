@@ -8,7 +8,7 @@ const length = characters.length
 const converted = [];
 
 for(let i=0; i<length; i++){
-    converted.push(converted.charCodeAt(i));
+    converted.push(characters.charCodeAt(i));
 }
 
 console.log(converted.join(", "))
